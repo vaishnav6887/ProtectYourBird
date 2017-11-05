@@ -19,7 +19,8 @@
   font-size: 20px;
   text-align: left;
 }
-
+.App-header h1{float:left;}
+h6.right{float:right;color:#f34322}
 .App-title {
   font-size: 1.5em;
 }

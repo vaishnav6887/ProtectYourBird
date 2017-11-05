@@ -150,6 +150,7 @@ class Game extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">{this.state.header}</h1>
+          <h6 className="right">Developed by Vaishnav</h6>
         </header>
         {this.state.gameOver && <section className="btnContainer">
         <button onClick={this.replyOnClick.bind(this)}>Play Again!
