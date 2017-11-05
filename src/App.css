@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 .App {
   text-align: center;
 }
@@ -11,15 +13,26 @@
   background-color: #222;
   height: 50px;
   padding: 20px;
-  color: white;
+  padding-top: 5px;
+  color: yellow;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: left;
 }
 
 .App-title {
   font-size: 1.5em;
 }
-
+.btnContainer{
+  margin-bottom: 10px;
+}
+button{
+  text-align: center;
+}
 .App-intro {
   font-size: large;
+  margin: 5px;
+  clear: both;
 }
 
 @keyframes App-logo-spin {
