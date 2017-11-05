@@ -58,7 +58,7 @@ class Game extends Component {
       };
       this.animateHeader = this.animateHeader.bind(this);
       this.startApp = this.startApp.bind(this);
-      this.animateHeader('Flying Bird Game', 150, this.startApp);
+      this.animateHeader('Flying Bird', 150, this.startApp);
   }
   startApp(){
     this.timerID = setInterval(() => {

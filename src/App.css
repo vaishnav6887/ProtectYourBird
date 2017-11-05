@@ -22,7 +22,7 @@ body{
   text-align: left;
 }
 .App-header h1{float:left;}
-h6.right{float:right;color:#f34322}
+h6.right{float:right;color:#f34322;font-size:11px;}
 .App-title {
   font-size: 1.5em;
 }
